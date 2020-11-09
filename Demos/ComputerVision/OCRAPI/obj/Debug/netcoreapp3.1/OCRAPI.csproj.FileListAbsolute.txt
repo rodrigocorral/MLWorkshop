@@ -1,0 +1,28 @@
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/OCRAPI/obj/Debug/netcoreapp3.1/OCRAPI.csprojAssemblyReference.cache
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/OCRAPI/obj/Debug/netcoreapp3.1/OCRAPI.AssemblyInfoInputs.cache
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/OCRAPI/obj/Debug/netcoreapp3.1/OCRAPI.AssemblyInfo.cs
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/OCRAPI/obj/Debug/netcoreapp3.1/OCRAPI.csproj.CoreCompileInputs.cache
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/OCRAPI/bin/Debug/netcoreapp3.1/OCRAPI.deps.json
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/OCRAPI/bin/Debug/netcoreapp3.1/OCRAPI.runtimeconfig.json
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/OCRAPI/bin/Debug/netcoreapp3.1/OCRAPI.runtimeconfig.dev.json
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/OCRAPI/bin/Debug/netcoreapp3.1/OCRAPI.dll
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/OCRAPI/bin/Debug/netcoreapp3.1/OCRAPI.pdb
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/OCRAPI/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/OCRAPI/obj/Debug/netcoreapp3.1/OCRAPI.csproj.CopyComplete
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/OCRAPI/obj/Debug/netcoreapp3.1/OCRAPI.dll
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/OCRAPI/obj/Debug/netcoreapp3.1/OCRAPI.pdb
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/OCRAPI/obj/Debug/netcoreapp3.1/OCRAPI.genruntimeconfig.cache
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/OCRAPI/bin/Debug/netcoreapp3.1/OCRAPI.deps.json
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/OCRAPI/bin/Debug/netcoreapp3.1/OCRAPI.runtimeconfig.json
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/OCRAPI/bin/Debug/netcoreapp3.1/OCRAPI.runtimeconfig.dev.json
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/OCRAPI/bin/Debug/netcoreapp3.1/OCRAPI.dll
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/OCRAPI/bin/Debug/netcoreapp3.1/OCRAPI.pdb
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/OCRAPI/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/OCRAPI/obj/Debug/netcoreapp3.1/OCRAPI.csprojAssemblyReference.cache
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/OCRAPI/obj/Debug/netcoreapp3.1/OCRAPI.AssemblyInfoInputs.cache
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/OCRAPI/obj/Debug/netcoreapp3.1/OCRAPI.AssemblyInfo.cs
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/OCRAPI/obj/Debug/netcoreapp3.1/OCRAPI.csproj.CoreCompileInputs.cache
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/OCRAPI/obj/Debug/netcoreapp3.1/OCRAPI.csproj.CopyComplete
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/OCRAPI/obj/Debug/netcoreapp3.1/OCRAPI.dll
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/OCRAPI/obj/Debug/netcoreapp3.1/OCRAPI.pdb
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/OCRAPI/obj/Debug/netcoreapp3.1/OCRAPI.genruntimeconfig.cache

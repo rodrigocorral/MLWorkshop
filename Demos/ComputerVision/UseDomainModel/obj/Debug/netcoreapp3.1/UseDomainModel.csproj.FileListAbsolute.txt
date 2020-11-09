@@ -1,0 +1,14 @@
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/UseDomainModel/obj/Debug/netcoreapp3.1/UseDomainModel.csprojAssemblyReference.cache
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/UseDomainModel/obj/Debug/netcoreapp3.1/UseDomainModel.AssemblyInfoInputs.cache
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/UseDomainModel/obj/Debug/netcoreapp3.1/UseDomainModel.AssemblyInfo.cs
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/UseDomainModel/obj/Debug/netcoreapp3.1/UseDomainModel.csproj.CoreCompileInputs.cache
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/UseDomainModel/bin/Debug/netcoreapp3.1/UseDomainModel.deps.json
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/UseDomainModel/bin/Debug/netcoreapp3.1/UseDomainModel.runtimeconfig.json
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/UseDomainModel/bin/Debug/netcoreapp3.1/UseDomainModel.runtimeconfig.dev.json
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/UseDomainModel/bin/Debug/netcoreapp3.1/UseDomainModel.dll
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/UseDomainModel/bin/Debug/netcoreapp3.1/UseDomainModel.pdb
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/UseDomainModel/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/UseDomainModel/obj/Debug/netcoreapp3.1/UseDomainModel.csproj.CopyComplete
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/UseDomainModel/obj/Debug/netcoreapp3.1/UseDomainModel.dll
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/UseDomainModel/obj/Debug/netcoreapp3.1/UseDomainModel.pdb
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/UseDomainModel/obj/Debug/netcoreapp3.1/UseDomainModel.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/CustomComputerVision/UsingModel/obj/Debug/netcoreapp3.1/UsingModel.csprojAssemblyReference.cache
+/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/CustomComputerVision/UsingModel/obj/Debug/netcoreapp3.1/UsingModel.AssemblyInfoInputs.cache
+/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/CustomComputerVision/UsingModel/obj/Debug/netcoreapp3.1/UsingModel.AssemblyInfo.cs
+/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/CustomComputerVision/UsingModel/obj/Debug/netcoreapp3.1/UsingModel.csproj.CoreCompileInputs.cache
+/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/CustomComputerVision/UsingModel/bin/Debug/netcoreapp3.1/UsingModel.deps.json
+/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/CustomComputerVision/UsingModel/bin/Debug/netcoreapp3.1/UsingModel.runtimeconfig.json
+/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/CustomComputerVision/UsingModel/bin/Debug/netcoreapp3.1/UsingModel.runtimeconfig.dev.json
+/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/CustomComputerVision/UsingModel/bin/Debug/netcoreapp3.1/UsingModel.dll
+/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/CustomComputerVision/UsingModel/bin/Debug/netcoreapp3.1/UsingModel.pdb
+/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/CustomComputerVision/UsingModel/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/CustomComputerVision/UsingModel/obj/Debug/netcoreapp3.1/UsingModel.csproj.CopyComplete
+/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/CustomComputerVision/UsingModel/obj/Debug/netcoreapp3.1/UsingModel.dll
+/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/CustomComputerVision/UsingModel/obj/Debug/netcoreapp3.1/UsingModel.pdb
+/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/CustomComputerVision/UsingModel/obj/Debug/netcoreapp3.1/UsingModel.genruntimeconfig.cache

@@ -1,0 +1,28 @@
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/ReadAPI/bin/Debug/netcoreapp3.1/ReadAPI.deps.json
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/ReadAPI/bin/Debug/netcoreapp3.1/ReadAPI.runtimeconfig.json
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/ReadAPI/bin/Debug/netcoreapp3.1/ReadAPI.runtimeconfig.dev.json
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/ReadAPI/bin/Debug/netcoreapp3.1/ReadAPI.dll
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/ReadAPI/bin/Debug/netcoreapp3.1/ReadAPI.pdb
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/ReadAPI/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/ReadAPI/obj/Debug/netcoreapp3.1/ReadAPI.csprojAssemblyReference.cache
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/ReadAPI/obj/Debug/netcoreapp3.1/ReadAPI.AssemblyInfoInputs.cache
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/ReadAPI/obj/Debug/netcoreapp3.1/ReadAPI.AssemblyInfo.cs
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/ReadAPI/obj/Debug/netcoreapp3.1/ReadAPI.csproj.CoreCompileInputs.cache
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/ReadAPI/obj/Debug/netcoreapp3.1/ReadAPI.csproj.CopyComplete
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/ReadAPI/obj/Debug/netcoreapp3.1/ReadAPI.dll
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/ReadAPI/obj/Debug/netcoreapp3.1/ReadAPI.pdb
+/Users/rcorral/MLWorkshop/Demos/ComputerVision/ReadAPI/obj/Debug/netcoreapp3.1/ReadAPI.genruntimeconfig.cache
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/ReadAPI/bin/Debug/netcoreapp3.1/ReadAPI.deps.json
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/ReadAPI/bin/Debug/netcoreapp3.1/ReadAPI.runtimeconfig.json
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/ReadAPI/bin/Debug/netcoreapp3.1/ReadAPI.runtimeconfig.dev.json
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/ReadAPI/bin/Debug/netcoreapp3.1/ReadAPI.dll
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/ReadAPI/bin/Debug/netcoreapp3.1/ReadAPI.pdb
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/ReadAPI/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/ReadAPI/obj/Debug/netcoreapp3.1/ReadAPI.csprojAssemblyReference.cache
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/ReadAPI/obj/Debug/netcoreapp3.1/ReadAPI.AssemblyInfoInputs.cache
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/ReadAPI/obj/Debug/netcoreapp3.1/ReadAPI.AssemblyInfo.cs
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/ReadAPI/obj/Debug/netcoreapp3.1/ReadAPI.csproj.CoreCompileInputs.cache
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/ReadAPI/obj/Debug/netcoreapp3.1/ReadAPI.csproj.CopyComplete
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/ReadAPI/obj/Debug/netcoreapp3.1/ReadAPI.dll
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/ReadAPI/obj/Debug/netcoreapp3.1/ReadAPI.pdb
+/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/Demos/ComputerVision/ReadAPI/obj/Debug/netcoreapp3.1/ReadAPI.genruntimeconfig.cache

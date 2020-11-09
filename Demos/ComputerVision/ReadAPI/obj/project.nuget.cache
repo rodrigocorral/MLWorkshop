@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2gJwA8MyjP/RUlHrGrWwjA1D0FvLU1c0jPG1kaig54SZ9cZBg/6idmhdiLZ5e+TBg7yMzRfw44/cA4ud+YwtbQ==",
+  "success": true,
+  "projectFilePath": "/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/ComputerVision/ReadAPI/ReadAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/rcorral/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

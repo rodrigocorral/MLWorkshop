@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{77AEFD5D-063C-4273-A843-A299269A8B5A}|Default">
+  <MonoDevelop.Ide.ItemProperties.TheClientSDK PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.OCRAPI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UseDomainModel/Program.cs">
+    <Files>
+      <File FileName="ReadAPI/Program.cs" Line="1" Column="1" />
+      <File FileName="UseDomainModel/Program.cs" Line="11" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ComputerVision" expanded="True">
+            <Node name="ReadAPI" expanded="True" />
+            <Node name="TheClientSDK" expanded="True" />
+            <Node name="UseDomainModel" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.UseDomainModel PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ReadAPI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rcorral/Desktop/ML &amp; IA For Developers/Final/Code/Demos/ComputerVision/UseDomainModel/Program.cs" relfile="UseDomainModel/Program.cs" line="34" column="1" />
+      <Breakpoint file="/Users/rcorral/Desktop/ML &amp; IA For Developers/Final/Code/Demos/ComputerVision/TheClientSDK/Program.cs" relfile="TheClientSDK/Program.cs" line="92" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AnalyzeImage PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
