@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormRecognizer", "FormRecognizer.csproj", "{161C8746-2D73-4F5C-9B70-BD31832D444F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{161C8746-2D73-4F5C-9B70-BD31832D444F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161C8746-2D73-4F5C-9B70-BD31832D444F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161C8746-2D73-4F5C-9B70-BD31832D444F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161C8746-2D73-4F5C-9B70-BD31832D444F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
