@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rcorral/MLWorkshop/Demos/CustomComputerVision/ObjectDetection/ObjectDetection.csproj": {}
+  },
+  "projects": {
+    "/Users/rcorral/MLWorkshop/Demos/CustomComputerVision/ObjectDetection/ObjectDetection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rcorral/MLWorkshop/Demos/CustomComputerVision/ObjectDetection/ObjectDetection.csproj",
+        "projectName": "ObjectDetection",
+        "projectPath": "/Users/rcorral/MLWorkshop/Demos/CustomComputerVision/ObjectDetection/ObjectDetection.csproj",
+        "packagesPath": "/Users/rcorral/.nuget/packages/",
+        "outputPath": "/Users/rcorral/MLWorkshop/Demos/CustomComputerVision/ObjectDetection/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rcorral/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Azure.CognitiveServices.Vision.CustomVision.Training": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
