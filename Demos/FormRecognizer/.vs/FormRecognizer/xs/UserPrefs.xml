@@ -6,8 +6,8 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FormRecognizer" expanded="True" selected="True">
-            <Node name="FormRecognizer" expanded="True">
+          <Node name="FormRecognizer" expanded="True">
+            <Node name="FormRecognizer" expanded="True" selected="True">
               <Node name="Dependencies" expanded="True" />
             </Node>
           </Node>
