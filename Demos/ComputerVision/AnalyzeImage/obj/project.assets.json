@@ -58,11 +58,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/ComputerVision/AnalyzeImage/AnalyzeImage.csproj",
+      "projectUniqueName": "/Users/rcorral/MLWorkshop/Demos/ComputerVision/AnalyzeImage/AnalyzeImage.csproj",
       "projectName": "AnalyzeImage",
-      "projectPath": "/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/ComputerVision/AnalyzeImage/AnalyzeImage.csproj",
+      "projectPath": "/Users/rcorral/MLWorkshop/Demos/ComputerVision/AnalyzeImage/AnalyzeImage.csproj",
       "packagesPath": "/Users/rcorral/.nuget/packages/",
-      "outputPath": "/Users/rcorral/Desktop/ML & IA For Developers/Final/Code/Demos/ComputerVision/AnalyzeImage/obj/",
+      "outputPath": "/Users/rcorral/MLWorkshop/Demos/ComputerVision/AnalyzeImage/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

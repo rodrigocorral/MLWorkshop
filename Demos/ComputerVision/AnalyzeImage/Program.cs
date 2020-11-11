@@ -10,9 +10,9 @@ namespace AnalyzeImage
     static class Program
     {
         // Add your Computer Vision subscription key and endpoint to your environment variables.
-        static string subscriptionKey = "2d5810c4495d4841ad5e7d63e0f65ca3";
+        static string subscriptionKey = "2c1485c9f1fb49fb910fa69e94168465";
 
-        static string endpoint = "https://mlworkshp.cognitiveservices.azure.com/";
+        static string endpoint = "https://computervisionrcg.cognitiveservices.azure.com/";
 
         // the Analyze method endpoint
         static string uriBase = endpoint + "vision/v3.1/analyze";
@@ -20,7 +20,7 @@ namespace AnalyzeImage
         // Image you want analyzed (add to your bin/debug/netcoreappX.X folder)
         // For sample images, download one from here (png or jpg):
         // https://github.com/Azure-Samples/cognitive-services-sample-data-files/tree/master/ComputerVision/Images
-        static string imageFilePath = @"/Users/rcorral/MLWorkshop/cognitive-services-sample-data-files/ComputerVision/Images/objects.jpg";
+        static string imageFilePath = @"/Users/rcorral/MLWorkshop/Demos/SampleDataFiles/ComputerVision/Images/objects.jpg";
 
         public static void Main()
         {
