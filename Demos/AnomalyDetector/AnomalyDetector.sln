@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnomalyDetector", "AnomalyDetector.csproj", "{A5B1BEAA-8AFE-4C56-8030-C34DED4037E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5B1BEAA-8AFE-4C56-8030-C34DED4037E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B1BEAA-8AFE-4C56-8030-C34DED4037E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B1BEAA-8AFE-4C56-8030-C34DED4037E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B1BEAA-8AFE-4C56-8030-C34DED4037E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
