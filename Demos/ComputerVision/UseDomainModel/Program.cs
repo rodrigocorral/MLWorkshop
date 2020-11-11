@@ -11,16 +11,16 @@ namespace UseDomainModel
         static async Task Main(string[] args)
         {
             // Add your Computer Vision subscription key and endpoint to your environment variables.
-            string subscriptionKey = "2d5810c4495d4841ad5e7d63e0f65ca3";
+            string subscriptionKey = "2c1485c9f1fb49fb910fa69e94168465";
 
             // An endpoint should have a format like "https://westus.api.cognitive.microsoft.com"
-            string endpoint = "https://mlworkshp.cognitiveservices.azure.com/";
+            string endpoint = "https://computervisionrcg.cognitiveservices.azure.com/";
 
             // the Batch Read method endpoint
             string uriBase = endpoint + "vision/v3.1/models/landmarks/analyze?model=landmarks";
 
             //Set the URL of an image that you want to analyze.
-            string imageUrl = "https://upload.wikimedia.org/wikipedia/commons/f/f6/Bunker_Hill_Monument_2005.jpg";
+            string imageUrl = "https://miviaje.com/wp-content/uploads/2018/03/fuente-cibeles-madrid.jpg";
 
             HttpClient client = new HttpClient();
 

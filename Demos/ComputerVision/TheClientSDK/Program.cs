@@ -52,15 +52,15 @@ namespace TheClientSDK
     {
         // <snippet_vars>
         // Add your Computer Vision subscription key and endpoint
-        static string subscriptionKey = "2d5810c4495d4841ad5e7d63e0f65ca3";
-        static string endpoint = "https://mlworkshp.cognitiveservices.azure.com/";
+        static string subscriptionKey = "2c1485c9f1fb49fb910fa69e94168465";
+        static string endpoint = "https://computervisionrcg.cognitiveservices.azure.com/";
         // </snippet_vars>
 
         // Download these images (link in prerequisites), or you can use any appropriate image on your local machine.
-        private const string ANALYZE_LOCAL_IMAGE = @"/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/cognitive-services-sample-data-files/ComputerVision/Images/celebrities.jpg";
-        private const string DETECT_LOCAL_IMAGE = @"/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/cognitive-services-sample-data-files/ComputerVision/Images/objects.jpg";
-        private const string DETECT_DOMAIN_SPECIFIC_LOCAL = @"/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/cognitive-services-sample-data-files/ComputerVision/Images/celebrities.jpg";
-        private const string READ_TEXT_LOCAL_IMAGE = @"/Users/rcorral/Desktop/ML & IA For Developers/Final/MLWorkshop/cognitive-services-sample-data-files/ComputerVision/Images/print_text.png";
+        private const string ANALYZE_LOCAL_IMAGE = @"/Users/rcorral/MLWorkshop/Demos/SampleDataFiles/ComputerVision/celebrities.jpg";
+        private const string DETECT_LOCAL_IMAGE = @"/Users/rcorral/MLWorkshop/Demos/SampleDataFiles/ComputerVision/objects.jpg";
+        private const string DETECT_DOMAIN_SPECIFIC_LOCAL = @"/Users/rcorral/MLWorkshop/Demos/SampleDataFiles/ComputerVision/celebrities.jpg";
+        private const string READ_TEXT_LOCAL_IMAGE = @"/Users/rcorral/MLWorkshop/Demos/SampleDataFiles/ComputerVision/printed_text.jpg";
 
         // <snippet_analyze_url>
         // URL image used for analyzing an image (image of puppy)
@@ -324,9 +324,12 @@ namespace TheClientSDK
 
                 // Sunmarizes the image content.
                 Console.WriteLine("Summary:");
-                foreach (var caption in results.Description.Captions)
+                if (results.Description != null)
                 {
-                    Console.WriteLine($"{caption.Text} with confidence {caption.Confidence}");
+                    foreach (var caption in results.Description.Captions)
+                    {
+                        Console.WriteLine($"{caption.Text} with confidence {caption.Confidence}");
+                    }
                 }
                 Console.WriteLine();
 
@@ -340,58 +343,78 @@ namespace TheClientSDK
 
                 // Image tags and their confidence score
                 Console.WriteLine("Tags:");
-                foreach (var tag in results.Tags)
+                if (results.Tags != null)
                 {
-                    Console.WriteLine($"{tag.Name} {tag.Confidence}");
+                    foreach (var tag in results.Tags)
+                    {
+                        Console.WriteLine($"{tag.Name} {tag.Confidence}");
+                    }
                 }
                 Console.WriteLine();
 
                 // Objects
                 Console.WriteLine("Objects:");
-                foreach (var obj in results.Objects)
+                if (results.Tags != null)
                 {
-                    Console.WriteLine($"{obj.ObjectProperty} with confidence {obj.Confidence} at location {obj.Rectangle.X}, " +
-                      $"{obj.Rectangle.X + obj.Rectangle.W}, {obj.Rectangle.Y}, {obj.Rectangle.Y + obj.Rectangle.H}");
+                    foreach (var obj in results.Objects)
+                    {
+                        Console.WriteLine($"{obj.ObjectProperty} with confidence {obj.Confidence} at location {obj.Rectangle.X}, " +
+                          $"{obj.Rectangle.X + obj.Rectangle.W}, {obj.Rectangle.Y}, {obj.Rectangle.Y + obj.Rectangle.H}");
+                    }
                 }
                 Console.WriteLine();
 
                 // Detected faces, if any.
                 Console.WriteLine("Faces:");
-                foreach (var face in results.Faces)
+                if (results.Faces != null)
                 {
-                    Console.WriteLine($"A {face.Gender} of age {face.Age} at location {face.FaceRectangle.Left}, {face.FaceRectangle.Top}, " +
-                      $"{face.FaceRectangle.Left + face.FaceRectangle.Width}, {face.FaceRectangle.Top + face.FaceRectangle.Height}");
+                    foreach (var face in results.Faces)
+                    {
+                        Console.WriteLine($"A {face.Gender} of age {face.Age} at location {face.FaceRectangle.Left}, {face.FaceRectangle.Top}, " +
+                          $"{face.FaceRectangle.Left + face.FaceRectangle.Width}, {face.FaceRectangle.Top + face.FaceRectangle.Height}");
+                    }
                 }
                 Console.WriteLine();
 
                 // Adult or racy content, if any.
                 Console.WriteLine("Adult:");
-                Console.WriteLine($"Has adult content: {results.Adult.IsAdultContent} with confidence {results.Adult.AdultScore}");
-                Console.WriteLine($"Has racy content: {results.Adult.IsRacyContent} with confidence {results.Adult.RacyScore}");
+
+                if (results.Adult != null)
+                {
+                    Console.WriteLine($"Has adult content: {results.Adult.IsAdultContent} with confidence {results.Adult.AdultScore}");
+                    Console.WriteLine($"Has racy content: {results.Adult.IsRacyContent} with confidence {results.Adult.RacyScore}");
+
+                }
                 Console.WriteLine();
 
                 // Well-known brands, if any.
                 Console.WriteLine("Brands:");
-                foreach (var brand in results.Brands)
+                if (results.Brands != null)
                 {
-                    Console.WriteLine($"Logo of {brand.Name} with confidence {brand.Confidence} at location {brand.Rectangle.X}, " +
-                      $"{brand.Rectangle.X + brand.Rectangle.W}, {brand.Rectangle.Y}, {brand.Rectangle.Y + brand.Rectangle.H}");
+                    foreach (var brand in results.Brands)
+                    {
+                        Console.WriteLine($"Logo of {brand.Name} with confidence {brand.Confidence} at location {brand.Rectangle.X}, " +
+                          $"{brand.Rectangle.X + brand.Rectangle.W}, {brand.Rectangle.Y}, {brand.Rectangle.Y + brand.Rectangle.H}");
+                    }
+                    Console.WriteLine();
                 }
-                Console.WriteLine();
-
                 // Celebrities in image, if any.
                 Console.WriteLine("Celebrities:");
-                foreach (var category in results.Categories)
-                {
-                    if (category.Detail?.Celebrities != null)
+                if (results.Categories != null)
+                    
+            { 
+                    foreach (var category in results.Categories)
                     {
-                        foreach (var celeb in category.Detail.Celebrities)
+                        if (category.Detail?.Celebrities != null)
                         {
-                            Console.WriteLine($"{celeb.Name} with confidence {celeb.Confidence} at location {celeb.FaceRectangle.Left}, " +
-                              $"{celeb.FaceRectangle.Top},{celeb.FaceRectangle.Height},{celeb.FaceRectangle.Width}");
+                            foreach (var celeb in category.Detail.Celebrities)
+                            {
+                                Console.WriteLine($"{celeb.Name} with confidence {celeb.Confidence} at location {celeb.FaceRectangle.Left}, " +
+                                  $"{celeb.FaceRectangle.Top},{celeb.FaceRectangle.Height},{celeb.FaceRectangle.Width}");
+                            }
                         }
                     }
-                }
+            }
                 Console.WriteLine();
 
                 // Popular landmarks in image, if any.
@@ -410,18 +433,24 @@ namespace TheClientSDK
 
                 // Identifies the color scheme.
                 Console.WriteLine("Color Scheme:");
-                Console.WriteLine("Is black and white?: " + results.Color.IsBWImg);
-                Console.WriteLine("Accent color: " + results.Color.AccentColor);
-                Console.WriteLine("Dominant background color: " + results.Color.DominantColorBackground);
-                Console.WriteLine("Dominant foreground color: " + results.Color.DominantColorForeground);
-                Console.WriteLine("Dominant colors: " + string.Join(",", results.Color.DominantColors));
-                Console.WriteLine();
+                if (results.Color != null)
+                {
+                    Console.WriteLine("Is black and white?: " + results.Color.IsBWImg);
+                    Console.WriteLine("Accent color: " + results.Color.AccentColor);
+                    Console.WriteLine("Dominant background color: " + results.Color.DominantColorBackground);
+                    Console.WriteLine("Dominant foreground color: " + results.Color.DominantColorForeground);
+                    Console.WriteLine("Dominant colors: " + string.Join(",", results.Color.DominantColors));
+                    Console.WriteLine();
+                }
 
                 // Detects the image types.
-                Console.WriteLine("Image Type:");
-                Console.WriteLine("Clip Art Type: " + results.ImageType.ClipArtType);
-                Console.WriteLine("Line Drawing Type: " + results.ImageType.LineDrawingType);
-                Console.WriteLine();
+                if (results.Color != null)
+                {
+                    Console.WriteLine("Image Type:");
+                    Console.WriteLine("Clip Art Type: " + results.ImageType.ClipArtType);
+                    Console.WriteLine("Line Drawing Type: " + results.ImageType.LineDrawingType);
+                    Console.WriteLine();
+                }
             }
         }
         /*
@@ -444,6 +473,7 @@ namespace TheClientSDK
 
             // For each detected object in the picture, print out the bounding object detected, confidence of that detection and bounding box within the image
             Console.WriteLine("Detected objects:");
+            
             foreach (var obj in detectObjectAnalysis.Objects)
             {
                 Console.WriteLine($"{obj.ObjectProperty} with confidence {obj.Confidence} at location {obj.Rectangle.X}, " +
@@ -475,10 +505,13 @@ namespace TheClientSDK
 
                 // For each detected object in the picture, print out the bounding object detected, confidence of that detection and bounding box within the image
                 Console.WriteLine("Detected objects:");
-                foreach (var obj in results.Objects)
+                if (results.Objects != null)
                 {
-                    Console.WriteLine($"{obj.ObjectProperty} with confidence {obj.Confidence} at location {obj.Rectangle.X}, " +
-                      $"{obj.Rectangle.X + obj.Rectangle.W}, {obj.Rectangle.Y}, {obj.Rectangle.Y + obj.Rectangle.H}");
+                    foreach (var obj in results.Objects)
+                    {
+                        Console.WriteLine($"{obj.ObjectProperty} with confidence {obj.Confidence} at location {obj.Rectangle.X}, " +
+                          $"{obj.Rectangle.X + obj.Rectangle.W}, {obj.Rectangle.Y}, {obj.Rectangle.Y + obj.Rectangle.H}");
+                    }
                 }
                 Console.WriteLine();
             }

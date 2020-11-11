@@ -12,16 +12,16 @@ namespace ReadAPI
     static class Program
     {
         // Add your Computer Vision subscription key and endpoint to your environment variables.
-        static string subscriptionKey = "2d5810c4495d4841ad5e7d63e0f65ca3";
+        static string subscriptionKey = "2c1485c9f1fb49fb910fa69e94168465";
 
         // An endpoint should have a format like "https://westus.api.cognitive.microsoft.com"
-        static string endpoint = "https://mlworkshp.cognitiveservices.azure.com/";
+        static string endpoint = "https://computervisionrcg.cognitiveservices.azure.com/";
 
         // the Batch Read method endpoint
         static string uriBase = endpoint + "/vision/v3.1/read/analyze";
 
         // Add a local image with text here (png or jpg is OK)
-        static string imageFilePath = @"/Users/rcorral/MLWorkshop/cognitive-services-sample-data-files/ComputerVision/Images/printed_handwritten.pdf";
+        static string imageFilePath = @"/Users/rcorral/MLWorkshop/Demos/SampleDataFiles/ComputerVision/printed_handwritten.pdf";
 
 
         static void Main(string[] args)

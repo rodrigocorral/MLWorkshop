@@ -10,9 +10,8 @@ namespace CSHttpClientSample
     static class Program
     {
         // Add your Computer Vision subscription key and endpoint to your environment variables.
-        static string subscriptionKey = "2d5810c4495d4841ad5e7d63e0f65ca3";
-
-        static string endpoint = "https://mlworkshp.cognitiveservices.azure.com/";
+        static string subscriptionKey = "2c1485c9f1fb49fb910fa69e94168465";
+        static string endpoint = "https://computervisionrcg.cognitiveservices.azure.com/";
 
         // the OCR method endpoint
         static string uriBase = endpoint + "vision/v2.1/ocr";
@@ -22,7 +21,7 @@ namespace CSHttpClientSample
             // Get the path and filename to process from the user.
             Console.WriteLine("Optical Character Recognition:");
 
-            string imageFilePath = @"/Users/rcorral/MLWorkshop/cognitive-services-sample-data-files/ComputerVision/Images/printed_text.jpg";
+            string imageFilePath = @"/Users/rcorral/MLWorkshop/Demos/SampleDataFiles/ComputerVision/handwritten_text.jpg";
 
             if (File.Exists(imageFilePath))
             {
@@ -36,6 +35,7 @@ namespace CSHttpClientSample
             }
             Console.WriteLine("\nPress Enter to exit...");
             Console.ReadLine();
+            Console.Clear();
         }
 
         /// <summary>
@@ -58,7 +58,7 @@ namespace CSHttpClientSample
                 // method detects it automatically.
                 // The detectOrientation parameter is set to true, so the method detects and
                 // and corrects text orientation before detecting text.
-                string requestParameters = "language=unk&detectOrientation=true";
+                string requestParameters = "language=en&detectOrientation=true";
 
                 // Assemble the URI for the REST API method.
                 string uri = uriBase + "?" + requestParameters;
